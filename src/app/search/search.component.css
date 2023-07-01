@@ -1,0 +1,13 @@
+div{
+    display: flex;
+    justify-content: center;
+}
+
+div input{
+    border-radius: 10px 10px 10px 10px;
+    border: rgb(252, 20, 20);
+    height: 5px;
+    width: 20rem;
+    background-color: #f1f1f1;
+    padding: 1.2rem;
+}

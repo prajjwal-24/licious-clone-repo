@@ -1,0 +1,67 @@
+img {
+    height: auto;
+    width: 100%;
+    border-radius: 20px 20px 20px 20px;
+    margin-top: 0px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style-type:none;
+    padding: 0;
+}
+
+ul li {
+    height: 25rem;
+    width: 15rem;
+    border: 1px solid whitesmoke;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    color: #e72929
+}
+li a{
+    color: black;
+}
+li a:hover{
+    opacity: 0.9;
+    border-radius: 0%;
+    cursor: pointer;
+}
+
+.content{
+    padding: .5rem 1rem;
+    position: relative;
+}
+
+.delDay{
+    font-size: 12px;
+    color:rgb(37, 37, 37);
+    
+}
+.delTime{
+    font-size: 12px;
+    color:rgb(37, 37, 37);
+    font-weight: bold;
+}
+.delDetails{
+    margin-top: 0.6rem;
+}
+
+.weight{
+    margin-top: 0.5rem;
+}
+
+.price{
+    margin-top: 0.5rem;
+}
+.category{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 10px 10px 10px;
+
+}

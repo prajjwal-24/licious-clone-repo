@@ -1,0 +1,41 @@
+header{
+    background-color: white;
+    padding: 0%;
+    border-bottom: 1px  black;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    box-shadow: 0 4px 6px -6px #222;
+    /* position: fixed; 
+    width: -webkit-fill-available;
+    z-index: 1; */
+}
+
+a{
+    color:black;
+}
+
+/* a:hover{
+    background-color: #e72929;
+    color: white;
+} */
+
+.container{
+    /* margin: 1rem auto; */
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1.2rem;
+}
+
+a.logo{
+    font-weight: bold;
+    height: 30px;
+    width: 100px;
+    /* padding: 1em; */
+}
+
+mat-drawer-content {
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
