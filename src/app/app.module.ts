@@ -12,6 +12,11 @@ import { FoodPageComponent } from './food-page/food-page.component';
 
 import {MatButtonModule} from '@angular/material/button';
 import {MatSidenavModule} from '@angular/material/sidenav';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { LoginPageComponent } from './login-page/login-page.component';
+import { UserLoginComponent } from './user-login/user-login.component';
+import { FormsModule } from '@angular/forms';
+import { FooterComponent } from './footer/footer.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,13 +25,18 @@ import {MatSidenavModule} from '@angular/material/sidenav';
     SearchComponent,
     TagsComponent,
     CartPageComponent,
-    FoodPageComponent
+    FoodPageComponent,
+    LoginPageComponent,
+    UserLoginComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     MatSidenavModule,
-    MatButtonModule
+    MatButtonModule,
+    BrowserAnimationsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
